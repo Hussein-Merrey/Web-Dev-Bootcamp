@@ -55,4 +55,9 @@ body {
     #headinggroup h1 {
         font-size: 2.5rem;
     }
+
+    .blurb h2 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
 }
