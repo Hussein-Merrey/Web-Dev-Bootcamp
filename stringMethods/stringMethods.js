@@ -16,8 +16,4 @@ const roll = `You rolled a ${die1} and a ${die2}. They sum to ${die1 + die2}`;
 console.log(roll);
 
 
-//Coding Exercise:20 Coditional
-let num = prompt("enter a number")
-if (num % 2 === 0) {
-    console.log("even");
-}
+
