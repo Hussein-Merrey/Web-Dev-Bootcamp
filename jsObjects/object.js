@@ -8,3 +8,4 @@ const restaurant = {
 
 const fullAddress = [restaurant.address, restaurant.city, restaurant.state, restaurant.zipcode]
 console.log("full adrress : " + fullAddress);
+

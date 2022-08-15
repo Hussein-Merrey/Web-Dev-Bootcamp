@@ -1,0 +1,180 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+    background: whitesmoke;
+
+}
+
+.navbar {
+    background: #8CC0DE;
+    margin-bottom: 2rem;
+}
+
+.navbar link {
+    text-decoration: none;
+}
+
+h2 {
+    color: #06283D;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: gray;
+}
+
+.head {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.score {
+    padding-left: 1.35rem;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.info {
+    margin-left: 5rem;
+}
+
+.rates {
+    padding-left: 6rem;
+}
+
+.profilephoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid #8CC0DE 2px;
+    border-radius: 1.5%;
+    margin-right: 6rem;
+
+}
+
+.profilephoto img {
+    border-radius: 1.5%;
+    align-self: center;
+
+}
+
+.section {
+    padding-bottom: 8rem;
+}
+
+.skillinfo {
+    padding-left: 8rem;
+}
+
+.eduinfo {
+    padding-left: 8rem;
+}
+
+.hobinfo {
+    padding-left: 5rem;
+}
+
+@media (max-width: 1024px) {
+    .info {
+        padding-right: 2rem;
+    }
+
+    .profilephoto {
+        width: 30%;
+        margin-bottom: 5rem;
+    }
+
+    h2 {
+        font-size: 1.65rem;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 0.85rem;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 0.85rem;
+    }
+
+    .head {
+        font-size: 0.85rem;
+        font-weight: 500;
+    }
+
+    .score {
+        font-size: 0.85rem;
+        font-weight: 500;
+    }
+
+    .skillinfo {
+        padding-left: 4rem;
+    }
+
+    .eduinfo {
+        padding-left: 6rem;
+    }
+
+    .hobinfo {
+        padding-left: 9rem;
+    }
+}
+
+@media (max-width: 520px) {
+    h2 {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .info {
+        padding-left: 2rem;
+    }
+
+    .profilephoto {
+        width: 75%;
+        margin-top: 2rem;
+        margin-left: 7rem;
+        margin-bottom: 5rem;
+    }
+
+    .rates {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        margin-right: 5rem;
+    }
+
+    .head {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .score {
+        font-size: 1.75rem;
+        margin-right: 1rem;
+    }
+
+    .skillinfo {
+        margin-right: 6rem;
+    }
+
+    .eduinfo {
+        margin-right: 6rem;
+    }
+
+}
